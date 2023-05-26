@@ -1,0 +1,101 @@
+*{
+    font-family: 'Rubik',sans-serif;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.hero-banner {
+    padding: 60px 0 60px;
+    opacity: 2;
+}
+
+.hero-banner img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    overflow: hidden;
+}
+.img-1 img,.img-2 img,.img-4 img,.img-5 img{
+    height: 30vh;
+    object-fit: cover;
+}
+.travel-1,.travel-2,.travel-3,.travel-4{
+    position: relative;
+}
+.travel-1 img{
+    height: 40vh;
+    object-fit: cover;
+}
+.travel-2 img,.travel-3 img{
+    height: 35vh;
+    object-fit: cover;
+}
+.travel-4 img{
+    height: 78vh;
+    object-fit: cover;
+}
+.img-3 img{
+    height: 63vh;
+}
+.img-1,.img-2,.img-3,.img-4,.img-5{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, #00000085, rgba(255, 255, 255, 0.078));
+    border-radius: 10px;
+    transition: 0.5s ease;
+    color: white;
+}
+.overlay .text{
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+}
+.overlay p{
+    font-size: 1.1rem;
+}
+.overlay h6{
+    color: gainsboro;
+    font-weight: 100;
+}
+
+.politics-container a img{
+    width: 100%;
+    border-radius: 10px;
+}
+.politics-container a p{
+    font-size: 1.2rem;
+    color: rgb(47, 47, 122);
+}
+.profile img{
+    border-radius: 50%;
+    width: 70%;
+}
+.profile h6{
+    align-self: center;
+    font-size: 0.7875rem;
+    color: grey;
+}
+.profile h6 a{
+    color: black;
+    text-decoration: none;
+}
+.politics-container p{
+    color: grey;
+}
+.politics-container a, .view a{
+    text-decoration: underline;
+    color: rgb(47, 47, 122);
+}
